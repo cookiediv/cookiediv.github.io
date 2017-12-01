@@ -14,12 +14,15 @@ body {
 }
 h2 {
     display: block;
-    font-size: 1.125rem;
+    font-size: 1.3rem;
     margin: 1em 0em;
-    font-weight: bold;
+    font-weight: normal;
 }
 p.uppercase {
     text-transform: uppercase;
+}
+a:link {
+    text-decoration: none;
 }
 
 }
@@ -31,41 +34,44 @@ p.uppercase {
 <style>
 
 @media (min-width:481px) {
-
-.Mac_title {padding: 0% 0% 2% 0%;}
-
-table.Menu {
- position: relative;
- border-collapse: collapse;
- min-width:480px;
- width: 40%;
- margin: auto;
- text-align: center;
- 
+table.welcome {
+ background-color: rgba( 103, 0, 255, 0.0 );
+  font-family: Arial, Helvetica, sans-serif;
+  display:block;
+  position:relative;
+  margin: auto;
+  width: 50%;
+  height: 10%;
+  text-align: left;
+  border-collapse: collapse;
 }
-table.Menu td, table.Menu th {
- border:0.75px dashed #000000;
-padding: 5% 10%;
+table.welcome td, table.welcome th {
+  padding:  15% 0px 30% 0px;
 }
 
-table.Menu tbody td {
- font-size: 0.875rem;
- overflow:auto;
- 
- display:block
+table.welcome tbody td {
+  font-size: 14px;
+  color: #000000;
 }
-table.Menu tfoot td {
- font-size: 14px;
+
+table.welcome p {
+	
+	margin-left: 1em;
+margin-right:10%;
 }
-table.Menu tfoot .links {
- text-align: right;
+
+table.welcome tfoot td {
+  font-size: 14px;
 }
-table.Menu tfoot .links a{
- display: block;
- background: #1C6EA4;
- color: #FFFFFF;
- padding: 2px 8px;
- border-radius: 5px;
+table.welcome tfoot .links {
+  text-align: right;
+}
+table.welcome tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
 }
 
 
@@ -95,37 +101,47 @@ vertical-align: middle;
 
 @media (max-width:480px) {
 
-table.Menu {
- position: relative;
- border-collapse: collapse;
- width:96%;
- margin: auto;
- text-align: center;
- 
+table.welcome {
+ background-color: rgba( 103, 0, 255, 0.0 );
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  position:relative;
+  margin: auto;
+  width: 80%;
+  height: 10%;
+  text-align: left;
+  border-collapse: collapse;
 }
-table.Menu td, table.Menu th {
- border:0.75px dashed #000000;
-padding: 12% 0px;
-display:block;
+table.welcome td, table.welcome th {
+  padding:  15% 0px 30% 0px;
 }
 
-table.Menu tbody td {
- font-size: 0.75rem;
- overflow:auto;
+table.welcome tbody td {
+  font-size: 14px;
+  color: #000000;
 }
-table.Menu tfoot td {
- font-size: 14px;
+
+table.welcome p {
+	
+	margin-left: 1em;
+margin-right: 10%;
 }
-table.Menu tfoot .links {
- text-align: right;
+
+table.welcome tfoot td {
+  font-size: 14px;
 }
-table.Menu tfoot .links a{
- display: inline-block;
- background: #1C6EA4;
- color: #FFFFFF;
- padding: 2px 8px;
- border-radius: 5px;
+table.welcome tfoot .links {
+  text-align: right;
 }
+table.welcome tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+
 .navbar {
   overflow: hidden;
   background-color: rgba( 255, 255, 255, 1.0 );
@@ -148,6 +164,7 @@ table.Menu tfoot .links a{
   font-family: helvetica;
 vertical-align: middle;
 }
+
 }
 </style>
 <head>
@@ -160,18 +177,19 @@ vertical-align: middle;
 </div>
 
 
-<div class="Menu">
+<div>
 
-<table class="Menu">
+<div style=
+"padding: 0px 0px 0px 0px;">
+<table class="welcome">
 <tbody>
 <tr>
-<td><h2>Fall Menu</h2><p>Vanilla<p>Pumpkin<p>Apricot<p>Salted Caramel<p>Black Currant<p>Lemon<p>Green Tea<p>Chocolate<p>Pistachio</p></td></tr>
-</tbody>
+<td><h2>About page is under construction.</h2><p/>
+<i>Come back soon.</i></p></td>
 </tr>
+</tbody>
 </table>
-
-</div><br><br><br>
-
+</div>
 
  <div class="navbar" "font">
   <a href="https://macarondesserts.com/" target="_top">Home</a>
