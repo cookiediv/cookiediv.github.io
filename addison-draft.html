@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    display: inline-block;
+    position: fixed;
+    width:75%;
+    margin:0 auto;
+    bottom: 0;
+}
+
+.navbar a {
+    float: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    display:inline;
+    
+    float: none;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropup:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 75%;
+    height:125px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position:fixed;
+    bottom: 50px;
+    overflow:inherit;
+}
+
+.navbar-container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    display: block;
+    position: fixed;
+    width:100%;
+    margin:0 auto;
+    bottom: 0;	
+}
+
+</style>
+</head>
+<body><br>
+
+<div class="navbar-container">
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <div class="dropdown">
+      <button class="dropbtn">About 
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Macaron Desserts</a>
+        <a href="#">The Owner</a>
+      </div>
+
+    </div> 
+   <a href="#contact">Contact</a> 
+  </div>
+</div>
+
+</body>
+</html>
