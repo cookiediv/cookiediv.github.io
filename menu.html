@@ -9,7 +9,7 @@ body {
 }
   h1 { 
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 1.0em 0em;
     font-weight: bold;
 }
@@ -32,8 +32,9 @@ p.uppercase {
 <style>
 
 @media (min-width:481px) {
+#holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:120%; transform: translateX(-5%); transform: translateY(-20%);}
 
-.Mac_title {padding: 0% 0% 2% 0%;}
+.Mac_title {padding: 2% 0% 2% 0%;}
 
 table.Menu {
  position: relative;
@@ -42,6 +43,7 @@ table.Menu {
  width: 40%;
  margin: auto;
  text-align: center;
+ background-color: rgba(255, 255, 255, 0.8);
  
 }
 table.Menu td, table.Menu th {
@@ -164,6 +166,7 @@ table.Menu tfoot .links a{
 }
 
 @media (max-width:480px) {
+#holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:150%; transform: translateX(-5%);}
 
 table.Menu {
  position: relative;
@@ -171,6 +174,7 @@ table.Menu {
  width:96%;
  margin: auto;
  text-align: center;
+ background-color: rgba(255, 255, 255, 0.8);
  
 }
 table.Menu td, table.Menu th {
@@ -279,6 +283,9 @@ table.Menu tfoot .links a{
 
 
 <body>
+<div id="holiday-menu-background">
+<img src="holiday-menu-background.png" alt="holiday menu background" align="middle">
+</div>
 
 <div class="Mac_title">
 <center><h1><p class= "uppercase">Macaron<br>Desserts</h1></center>
