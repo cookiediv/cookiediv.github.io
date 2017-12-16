@@ -3,7 +3,11 @@
 <head>
 <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
+
+@media (min-width:481px) {
 body {
     font-family: 'Amiko';font-size: 22px;
 }
@@ -23,20 +27,10 @@ p.uppercase {
     text-transform: uppercase;
 }
 
-}
-
-
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-
-@media (min-width:481px) {
 #holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:120%; transform: translateX(-5%); transform: translateY(-20%);}
 
 .Mac_title {padding: 2% 0% 2% 0%;}
-
-table.Menu {
+.cookie-menu {
  position: relative;
  border-collapse: collapse;
  min-width:480px;
@@ -44,33 +38,12 @@ table.Menu {
  margin: auto;
  text-align: center;
  background-color: rgba(255, 255, 255, 0.8);
- 
-}
-table.Menu td, table.Menu th {
- border:0.75px solid #000000;
-padding: 12.5% 10%;
-}
-
-table.Menu tbody td {
- font-size: 0.875rem;
+  border:0.75px solid #000000;
+padding: 7% 6%;
+font-size: 0.875rem;
  overflow:auto;
- 
  display:block
 }
-table.Menu tfoot td {
- font-size: 14px;
-}
-table.Menu tfoot .links {
- text-align: right;
-}
-table.Menu tfoot .links a{
- display: block;
- background: #1C6EA4;
- color: #FFFFFF;
- padding: 2px 8px;
- border-radius: 5px;
-}
-
 
 .navbar {
     overflow: hidden;
@@ -167,39 +140,37 @@ table.Menu tfoot .links a{
 
 @media (max-width:480px) {
 #holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:150%; transform: translateX(-5%);}
+body {
+    font-family: 'Amiko';font-size: 12px;
+}
+  h1 { 
+    display: block;
+    font-size: 1.8rem;
+    margin: 1.0em 0em;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.25rem;
+    margin: 1em 0em;
+    font-weight: bold;
+}
+p.uppercase {
+    text-transform: uppercase;
+}
 
-table.Menu {
+.cookie-menu {
  position: relative;
  border-collapse: collapse;
  width:96%;
  margin: auto;
  text-align: center;
  background-color: rgba(255, 255, 255, 0.8);
- 
-}
-table.Menu td, table.Menu th {
  border:0.75px solid #000000;
 padding: 12% 0px;
 display:block;
 }
 
-table.Menu tbody td {
- font-size: 0.75rem;
- overflow:auto;
-}
-table.Menu tfoot td {
- font-size: 14px;
-}
-table.Menu tfoot .links {
- text-align: right;
-}
-table.Menu tfoot .links a{
- display: inline-block;
- background: #1C6EA4;
- color: #FFFFFF;
- padding: 2px 8px;
- border-radius: 5px;
-}
 .navbar {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 1.0);
@@ -292,16 +263,8 @@ table.Menu tfoot .links a{
 </div>
 
 
-<div class="Menu">
-
-<table class="Menu">
-<tbody>
-<tr>
-<td><h2>Holiday Menu</h2><p>Vanilla<p>Orange Chocolate<p>White Chocolate+Salty Caramel<p>Ginger<p>Black Currant<p>Lemon<p>Green Tea<p>Chocolate<p>Pistachio</p></td></tr>
-</tbody>
-</tr>
-</table>
-
+<div class="cookie-menu">
+<h2>Holiday Menu</h2><p>Vanilla<p>Orange Chocolate<p>White Chocolate+Salty Caramel<p>Ginger<p>Black Currant<p>Lemon<p>Green Tea<p>Chocolate<p>Pistachio</p>
 </div><br><br><br>
 
 
