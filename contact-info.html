@@ -2,9 +2,14 @@
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+@media (min-width:481px) {
 body {
-    font-family: 'Amiko';font-size: 22px;
+    font-family: 'Amiko';font-size: 16px;
 }
   h1 { 
     display: block;
@@ -14,7 +19,7 @@ body {
 }
 h2 {
     display: block;
-    font-size: 1.125rem;
+    font-size: 1.4rem;
     margin: 1em 0em;
     font-weight: normal;
 }
@@ -25,45 +30,11 @@ a:link {
     text-decoration: none;
 }
 
+.Mac_title{padding: 2% 0% 1%}
 
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.com-media{display:inline-block; position:relative; left:37%; text-align: right;}
 
-<style>
-
-@media (min-width:481px) {
-
-table.contactinfo {
-font-family: Arial, Helvetica, sans-serif;
- background-color: rgba( 255, 255, 255, 0.1 );
-  width: 325px;
-  text-align: left;
-  border-collapse: collapse;
-  margin:auto;
-  position:relative;
-  display:block;
-}
-table.contactinfo td, table.contactinfo th {
-  padding: 3% 15px;
-}
-
-table.contactinfo tbody td {
-  font-size: 0.6em;
-}
-table.contactinfo tfoot td {
-  font-size: 14px;
-}
-table.contactinfo tfoot .links {
-  text-align: right;
-}
-table.contactinfo tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-
+.com-addresses{display:inline-block; position:relative; left:40%; text-align: left;}
 
 .navbar {
     overflow: hidden;
@@ -74,7 +45,7 @@ table.contactinfo tfoot .links a{
     align-items: center;
     justify-content: center;
     bottom: 0;
-    width:75%;
+    width:70%;
     margin:0 15%;
  
 }
@@ -146,38 +117,33 @@ table.contactinfo tfoot .links a{
 }
 
 @media (max-width:480px) {
+body {
+    font-family: 'Amiko';font-size: 14px;
+}
+  h1 { 
+    display: block;
+    font-size: 1.6rem;
+    margin: 1.0em 0em;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.4rem;
+    margin: 1em 0em;
+    font-weight: normal;
+}
+p.uppercase {
+    text-transform: uppercase;
+}
+a:link {
+    text-decoration: none;
+}
 
-table.contactinfo {
-font-family: Arial, Helvetica, sans-serif;
- background-color: rgba( 255, 255, 0, 0.0 );
-  width: 80%;
-  text-align: left;
-  border-collapse: collapse;
-  margin:auto;
-  position:relative;
-  display:block;
-}
-table.contactinfo td, table.contactinfo th {
-  padding: 3% 15px;
-}
+.Mac_title{padding: 2% 0% 1%}
 
-table.contactinfo tbody td {
-  font-size: 0.6em;
-}
-table.contactinfo tfoot td {
-  font-size: 14px;
-}
-table.contactinfo tfoot .links {
-  text-align: right;
-}
-table.contactinfo tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
+.com-media{display:inline-block; position:relative; left:18%; text-align: right;}
 
-}
+.com-addresses{display:inline-block; position:relative; left:20.5%; text-align: left;}
 
 .navbar {
     overflow: hidden;
@@ -266,23 +232,21 @@ table.contactinfo tfoot .links a{
 
 <div class="Mac_title">
 <center><h1><p class= "uppercase">Macaron<br>Desserts</h1></center>
+</div><br>
+
+
+<div class="contact-info">
+<div align="center">
+<h2>Contact Info</h2>
 </div>
 
+<div class="com-media">
+Telephone<br>E-mail<br>Instagram
+</div>
 
-<div>
-
-<div style=
-"padding: 50px 0px 100px 0px;">
-<table class="contactinfo">
-<tbody>
-<tr><p><font face="helvetica"><center><h2>Contact Info</h2></center></font></p><td>Telephone</td><td>805.996.0791</td></tr>
-<tr>
-<td>E-mail</td><td>bianca@macarondesserts.com</td></tr>
-<tr>
-<td>Instagram</td><td><a href="http://www.instagram.com/macaron_desserts/" style="color: #000000; font-size: 14px; font-family: Helvetica;" target="_blank">@macaron_desserts</a></td></tr>
-</tbody>
-</tr>
-</table>
+<div class="com-addresses">
+805.996.0791<br>bianca@macarondesserts.com<br>
+<a href="http://www.instagram.com/macaron_desserts/" style="color: #000000; font-size: 14px; font-family: Helvetica;" target="_blank">@macaron_desserts</a>
 </div>
 
 <div class="navbar">
