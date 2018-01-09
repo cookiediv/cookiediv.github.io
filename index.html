@@ -9,10 +9,9 @@
 
 @media (min-width:481px) {
 body {
-	font-family: 'Amiko';font-size: 16px;
-	padding:0;
+	font-family: 'Amiko';font-size: 18px;
 }
-#holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:120%; transform: translateX(-5%); transform: translateY(-20%);}
+#christmas-round-frame> img{display: block; position:absolute; z-index: -1; top: -300px; transform: translateX(-10%); overflow: hidden; width: 120%; min-width: 1050px;}
 
 
   h1 { 
@@ -37,27 +36,32 @@ a:link {
 
 
 .Mac_title{
-	padding: 10% 0% 0% 0%;
+	padding: 13% 0% 0% 0%;
 }
 
-.welcome{width: 450px; padding:0; margin: auto; font-size: 18px; padding: 1% 0% 30%;}
+.welcome{width: 450px; padding:0; margin: auto; font-size: 18px; padding: 1% 0% 25%;}
+
+.footer {display: block; position: relative; bottom: 75px;}
 
 .navbar {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 1.0);
     font-family: helvetica;
-    display: flex;
+    display: block;
     position:fixed;
-    align-items: center;
-    justify-content: center;
+	float: none;
+	margin:auto;
+    text-align:center;
     bottom: 0;
-    width:70%;
-    margin:0 15%;
- 
+	left:0;
+	right:0;
+    min-width: 500px;
+	width:70%;
+	max-width: 800px;
+	padding: 14px;
 }
 
 .navbar a {
-    float: none;
     font-size: 20px;
     color: rgba(0, 0, 0, 1.0);
     text-align: center;
@@ -74,10 +78,10 @@ a:link {
 
 @media (max-width:480px) {
 body {
-	font-family: 'Amiko';font-size: 22px;
-	padding-left:0;
+	font-family: 'Amiko';font-size: 18px;
 }
-#holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:150%; transform: translateX(-5%);}
+
+#christmas-round-frame> img{display: block; position:absolute; z-index: -1; top: -100px; margin-left: auto; transform: translateX(-122.5px); overflow: hidden; width: 725px;}
 
   h1 { 
     display: block;
@@ -99,10 +103,12 @@ a:link {
 }
 
 .Mac_title{
-	padding: 15% 0% 0% 0%;
+	padding: 20% 0% 0% 0%;
 }
 
-.welcome{width: 400px; padding:0; margin: auto; font-size: 16px; padding: 1% 0% 30%;}
+.welcome{width: 400px; padding:0; margin: auto; font-size: 16px; padding: 1% 0% 45%;}
+
+.footer {display: block; position: relative; bottom: 100px;}
 
 .navbar {
     overflow: hidden;
@@ -113,8 +119,8 @@ a:link {
     align-items: center;
     justify-content: center;
     bottom: 0;
-    width:100%;
-	margin-left: 0;
+    width:106%;
+	transform: translateX(-3.0%);
  
 }
 
@@ -137,20 +143,30 @@ a:link {
 
 
 <body>
-<div id="holiday-menu-background">
-<img src="holiday-menu-background.png" alt="holiday menu background" align="middle">
+	
+<div id="christmas-round-frame">
+<img src="christmas-round-frame.jpg" alt="christmas round frame">
 </div>
+
 <div class="Mac_title">
 <center><h1><p class= "uppercase">Macaron Desserts</h1></center>
 </div>
 
 
-<div>
 
+<div>
 <div class="welcome">
 <div align="center" width: 400px>
-<h2><img src="left quote mark.png" alt="left quote mark"  width="25px" height="25px" align="left">Welcome to Macaron Desserts.</h2><p/><i>Bringing french-style macarons to people of the Central Coast who are seeking a fine foods cultural experience.</i><img src="right quote mark.png" alt="right quote mark"  width="25px" height="25px" align="right" hspace="10%"></p>
+<h2><img src="left quote mark.png" alt="left quote mark"  width="25px" height="25px" align="left">Welcome to Macaron Desserts.</h2>
+<p><i>Bringing french-style macarons to people of the Central Coast 
+who are seeking a fine foods cultural experience.</i>
+<img src="right quote mark.png" alt="right quote mark"  width="25px" height="25px" align="right" hspace="10%"></p>
 </div></div>
+
+<div>
+<div class="footer">
+<p><center>&copy Macaron Desserts 2017</center></p>
+</div>
 
    <div class="navbar">
     <a href="http://macarondesserts.com/" target="_top">Home</a>

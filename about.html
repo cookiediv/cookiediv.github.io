@@ -3,19 +3,26 @@
 <head>
 <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
+
+@media (min-width:481px) {
 body {
-    font-family: 'Amiko';font-size: 22px;
+    font-family: 'Amiko';font-size: 18px;
+	left:0;
+	background-color: rgba(51, 102, 153, 1.0);
+	background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.0) 5%, rgba(51, 102, 153, 0.1) 75%);
 }
-  h1 { 
+  h1 {
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 1.0em 0em;
     font-weight: bold;
 }
 h2 {
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin: 1em 0em;
     font-weight: normal;
 }
@@ -25,67 +32,42 @@ p.uppercase {
 a:link {
     text-decoration: none;
 }
-
-
-
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-
-@media (min-width:481px) {
-table.welcome {
+#Light-Pink-Macarons> img{position:fixed; bottom: 0; min-width: 288.6px; width:25%; transform: translateX(0%); transform: translateY(0%);}
+.about {
  background-color: rgba( 103, 0, 255, 0.0 );
   font-family: Arial, Helvetica, sans-serif;
   display:block;
   position:relative;
   margin: auto;
+  min-width: 500px;
   width: 50%;
-  max-width:350px;
+  max-width:700px;
   height: 10%;
-  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
   border-collapse: collapse;
-}
-table.welcome td, table.welcome th {
-  padding:  15% 0px 30% 0px;
+  padding:  2% 0px 30% 0px;
   float: none;
-}
-
-table.welcome tbody td {
-  font-size: 14px;
   color: #000000;
 }
-
-table.welcome p {
-}
-
-table.welcome tfoot td {
-  font-size: 14px;
-}
-table.welcome tfoot .links {
-  text-align: right;
-}
-table.welcome tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-
+.footer {display: block; position: relative; bottom: 100px;}
 
 .navbar {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 1.0);
     font-family: helvetica;
-    display: flex;
+    display: block;
     position:fixed;
-    align-items: center;
-    justify-content: center;
+	float: none;
+	margin:auto;
+    text-align:center;
     bottom: 0;
-    width:75%;
-    margin:0 15%;
- 
+	left:0;
+	right:0;
+    min-width: 500px;
+	width:70%;
+	max-width: 800px;
+	padding: 14px;
 }
 
 .navbar a {
@@ -99,8 +81,40 @@ table.welcome tfoot .links a{
 }
 }
 @media (max-width:480px) {
+body {
+    font-family: 'Amiko';
+	font-size: 18px;
+	background-color: rgba(51, 102, 153, 1.0);
+	background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.0) 5%, rgba(51, 102, 153, 0.1) 75%);
+}
 
-table.welcome {
+  h1 { 
+    display: block;
+    font-size: 1.8rem;
+    margin: 1.0em 0em;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1em 0em;
+    font-weight: normal;
+}
+p.uppercase {
+    text-transform: uppercase;
+}
+a:link {
+    text-decoration: none;
+}
+
+#Light-Pink-Macarons > img {
+	position:fixed; 
+	bottom: 0; 
+	width:60%; 
+	transform: translateX(-30%);
+}
+
+.about {
  background-color: rgba( 103, 0, 255, 0.0 );
   font-family: Arial, Helvetica, sans-serif;
   display: block;
@@ -108,35 +122,15 @@ table.welcome {
   margin: auto;
   width: 80%;
   height: 10%;
-  text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
   border-collapse: collapse;
-}
-table.welcome td, table.welcome th {
-  padding:  15% 0px 30% 0px;
-}
-
-table.welcome tbody td {
-  font-size: 14px;
+  padding:  3% 0px 40% 0px;
   color: #000000;
+  overflow: visible;
 }
 
-table.welcome p {
-}
-
-table.welcome tfoot td {
-  font-size: 14px;
-}
-table.welcome tfoot .links {
-  text-align: right;
-}
-table.welcome tfoot .links a{
-  display: inline-block;
-  background: #1C6EA4;
-  color: #FFFFFF;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-
+.footer {display: block; position: relative; bottom: 75px;}
 
 .navbar {
     overflow: hidden;
@@ -147,7 +141,8 @@ table.welcome tfoot .links a{
     align-items: center;
     justify-content: center;
     bottom: 0;
-    width:100%;
+    width:106%;
+	transform: translateX(-3.0%);
  
 }
 
@@ -158,8 +153,9 @@ table.welcome tfoot .links a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
+    margin-left:0;
 }
+
 .navbar a:hover {
     background-color: none;
 }
@@ -170,6 +166,9 @@ table.welcome tfoot .links a{
 
 
 <body>
+<div id="Light-Pink-Macarons">
+<img src="Light Pink Macarons.png" alt="Light Pink Macarons" align="middle">
+</div>
 
 <div class="Mac_title">
 <center><h1><p class= "uppercase">Macaron<br>Desserts</h1></center>
@@ -177,18 +176,30 @@ table.welcome tfoot .links a{
 
 
 <div>
+<div class="about">
+<p><center><h2>About the Company</h2></center></p>
+<p>Macaron Desserts is a cookie catering company specializing in French-style macarons. 
 
-<div style=
-"padding: 0px 0px 0px 0px;">
-<table class="welcome">
-<tbody>
-<tr>
-<td><h2>About page is under construction.</h2><p/>
-<i>Come back soon.</i></p></td>
-</tr>
-</tbody>
-</table>
+</p>
+<p>
+
+Check out the menu page for a combination of seasonal and year-round flavors.
+</p>
+<br><p><center><h2>Bianca Grant</h2></center>
+Hi, i'm the owner of and chef at Macaron Desserts. 
+I grew up and am based in San Luis Obispo, CA. 
+I was educated in business at Cuesta College and took classes in economics at Cal Poly, San Luis Obispo. 
+My passion for baking started as a child. 
+One of my earliest baking memories is making cinnamon rolls with my next-door neighbor. 
+Since then, I have been working on my recipes and found making macarons a challenging yet satisfying process.
+Contact me to talk about catering desserts for your next event!</p>
 </div>
+
+<div>
+<div class="footer">
+<p><center>&copy Macaron Desserts 2017</center></p>
+</div>
+
 
 <div class="navbar">
     <a href="http://macarondesserts.com/"target="_top">Home</a>

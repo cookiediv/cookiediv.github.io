@@ -9,7 +9,7 @@
 
 @media (min-width:481px) {
 body {
-    font-family: 'Amiko';font-size: 22px;
+    font-family: 'Amiko';font-size: 18px;
 }
   h1 { 
     display: block;
@@ -27,49 +27,42 @@ p.uppercase {
     text-transform: uppercase;
 }
 
-#holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:120%; transform: translateX(-5%); transform: translateY(-20%);}
+#christmas-round-frame> img{display: block; position:absolute; z-index: -1; top: -300px; transform: translateX(-10%); overflow: hidden; width: 120%; min-width: 1050px;}
 
 .Mac_title {padding: 2% 0% 2% 0%;}
 .cookie-menu {
  position: relative;
  border-collapse: collapse;
- min-width:480px;
+ min-width: 480px;
  width: 40%;
  margin: auto;
  text-align: center;
- background-color: rgba(255, 255, 255, 0.8);
-  border:0.75px solid #000000;
-padding: 7% 6%;
+ background-color: rgba(255, 255, 255, 0.0);
+  border:0.0px solid #000000;
+padding: 0% 6%;
 font-size: 0.875rem;
- overflow:auto;
+ overflow:hidden;
  display:block
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 1.0);
-    font-family: helvetica;
-    display: flex;
-    position:fixed;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-    width:100%;
- 
-}
+.footer {display: block; position: relative; bottom: 75px;}
 
 .navbar {
     overflow: hidden;
     background-color: rgba(255, 255, 255, 1.0);
     font-family: helvetica;
-    display: flex;
+    display: block;
     position:fixed;
-    align-items: center;
-    justify-content: center;
+	float: none;
+	margin:auto;
+    text-align:center;
     bottom: 0;
-    width:70%;
-    margin:0 15%;
- 
+	left:0;
+	right:0;
+    min-width: 500px;
+	width:70%;
+	max-width: 800px;
+	padding: 14px;
 }
 
 .navbar a {
@@ -88,9 +81,10 @@ font-size: 0.875rem;
 }
 
 @media (max-width:480px) {
-#holiday-menu-background> img{position:fixed; top: 0; z-index: -1; width:150%; transform: translateX(-5%);}
+#christmas-round-frame> img{display: block; position:absolute; z-index: -1; top: -100px; transform: translateX(-130px); overflow: hidden; width: 740px;}
+
 body {
-    font-family: 'Amiko';font-size: 12px;
+    font-family: 'Amiko';font-size: 18px;
 }
   h1 { 
     display: block;
@@ -108,17 +102,22 @@ p.uppercase {
     text-transform: uppercase;
 }
 
+.Mac_title {padding: 4% 0% 1% 0%;}
+
 .cookie-menu {
  position: relative;
  border-collapse: collapse;
  width:96%;
  margin: auto;
  text-align: center;
- background-color: rgba(255, 255, 255, 0.8);
- border:0.75px solid #000000;
-padding: 12% 0px;
+ background-color: rgba(255, 255, 255, 0.0);
+ border:0.0px solid #000000;
+padding: 0% 0px;
 display:block;
+font-size:12px;
 }
+
+.footer {display: block; position: relative; bottom: 50px;}
 
 .navbar {
     overflow: hidden;
@@ -129,7 +128,8 @@ display:block;
     align-items: center;
     justify-content: center;
     bottom: 0;
-    width:100%;
+    width:106%;
+	transform: translateX(-3.0%);
  
 }
 
@@ -153,8 +153,8 @@ display:block;
 
 
 <body>
-<div id="holiday-menu-background">
-<img src="holiday-menu-background.png" alt="holiday menu background" align="middle">
+<div id="christmas-round-frame">
+<img src="christmas-round-frame.jpg" alt="christmas round frame">
 </div>
 
 <div class="Mac_title">
@@ -163,9 +163,13 @@ display:block;
 
 
 <div class="cookie-menu">
-<h2>Holiday Menu</h2><p>Vanilla<p>Orange Chocolate<p>White Chocolate+Salty Caramel<p>Ginger<p>Black Currant<p>Lemon<p>Green Tea<p>Chocolate<p>Pistachio</p>
-</div><br><br><br>
+<h2>Menu</h2><p>Vanilla<p>Chocolate<p>Salty Caramel<p>Ginger<p>Black Currant<p>Lemon<p>Green Tea<p>Pistachio</p>
+</div><br><br><br><br><br><br><br>
 
+<div>
+<div class="footer">
+<p><center>&copy Macaron Desserts 2017</center></p>
+</div>
 
 <div class="navbar">
     <a href="http://macarondesserts.com/"target="_top">Home</a>
