@@ -1,172 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-
-@media (min-width:771px) {
-body {
-    font-family: 'Amiko';font-size: 18px;
-}
-  h1 { 
-    display: block;
-    font-size: 0.5 vw;
-    margin: 1.0em 0em;
-    font-weight: bold;
-}
-h2 {
-    display: block;
-    font-size: 1.25rem;
-    margin: 1em 0em;
-    font-weight: bold;
-}
-p.uppercase {
-    text-transform: uppercase;
-}
-
-#christmas-round-frame> img{display: block; position:absolute; z-index: -1; top: -20%; transform: translateX(-9%); overflow: hidden; width: 120%;}
-
-.Mac_title {padding: 13% 0% 0% 0%; font-size: 4vw; font-weight: bold;}
-.cookie-menu {
- position: relative;
- border-collapse: collapse;
- width: 40%;
- margin: auto;
- text-align: center;
- background-color: rgba(255, 255, 255, 0.0);
-  border:0.0px solid #000000;
-padding: 0% 0%;
-font-size: 2vw;
- overflow:hidden;
- display:block
-}
-
-.footer {display: block; position: relative; bottom: 75px; font-size: 2vw;}
-
-.navbar {
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 1.0);
-    font-family: helvetica;
-    display: block;
-    position:fixed;
-	float: none;
-	margin:auto;
-    text-align:center;
-    bottom: 0;
-	left:0;
-	right:0;
-	width:70%;
-	padding: 14px;
-}
-
-.navbar a {
-    float: none;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 1.0);
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    
-}
-
-.navbar a:hover {
-    background-color: none;
-}
-}
-
-@media (max-width:770px) {
-#christmas-round-frame> img{display: block; position:absolute; z-index: -1; top: -13.8%; margin-left: auto; transform: translateX(-16%); overflow: hidden; width: 148%;}
-
-body {
-    font-family: 'Amiko';font-size: 18px;
-}
-  h1 { 
-    display: block;
-    font-size: 1.4rem;
-    margin: 1.0em 0em;
-    font-weight: bold;
-}
-h2 {
-    display: block;
-    font-size: 1.25rem;
-    margin: 1em 0em;
-    font-weight: bold;
-}
-p.uppercase {
-    text-transform: uppercase;
-}
-
-.Mac_title {padding: 14% 0% 0% 0%; font-size: 1.6rem; font-weight: bolder;}
-
-.cookie-menu {
- position: relative;
- border-collapse: collapse;
- width:96%;
- margin: auto;
- text-align: center;
- background-color: rgba(255, 255, 255, 0.0);
- border:0.0px solid #000000;
-padding: 0% 0px;
-display:block;
-font-size: 3vw;
-}
-
-.footer {display: block; position: relative; bottom: 50px;}
-
-.navbar {
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 1.0);
-    font-family: helvetica;
-    display: flex;
-    position:fixed;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-    width:106%;
-	transform: translateX(-3.0%);
- 
-}
-
-.navbar a {
-    float: none;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 1.0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-}
-
-.navbar a:hover {
-    background-color: none;
-}
-    
-}
-</style>
-<head>
-
-
 <body>
+
 <div id="christmas-round-frame">
-<img src="christmas-round-frame.jpg" alt="christmas round frame">
-</div>
+<img src="christmas-round-frame.jpg" alt="christmas round frame"></div>
 
 <div class="Mac_title">
-<center><p class= "uppercase">Macaron<br>Desserts</p></center>
+<center><p class= "uppercase">Macaron<br>Menu</p></center>
 </div>
-
 
 <div class="cookie-menu">
-<h1>Menu</h1><p>Vanilla<p>Chocolate<p>Salty Caramel<p>Ginger<p>Black Currant<p>Lemon<p>Green Tea<p>Pistachio</p>
-</div><br><br><br><br><br><br><br>
+	Vanilla
+		<p>Chocolate
+		<p>Salty Caramel
+		<p>Ginger
+		<p>Black Currant
+		<p>Lemon
+		<p>Green Tea
+		<p>Pistachio</p></div>
 
-<div>
-<div class="footer">
-<p><center>&copy Macaron Desserts 2017</center></p>
-</div>
+<div class="footer">&copy Macaron Desserts 2017</div>
 
 <div class="navbar">
     <a href="http://macarondesserts.com/"target="_top">Home</a>
@@ -176,4 +29,78 @@ font-size: 3vw;
 </div>
 
 </body>
+
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+@media (min-width:771px) {body {font-family: 'Amiko';font-size: 18px;}
+/*indent*/p.uppercase{text-transform: uppercase;}
+
+#christmas-round-frame> img
+{display: block; position:absolute; 
+	z-index: -1; width: 120%; top: -20%; transform: translateX(-9%);
+	overflow: hidden;}
+
+.Mac_title
+{padding: 15% 0% 0% 0%; text-align: center; font-size: 3.5vw; font-weight: bold;}
+	
+.cookie-menu
+{display:block; position: relative; width: 40%;
+	margin: auto; overflow:hidden;
+	background-color: rgba(255, 255, 255, 0.0);
+	font-size: 2vw; text-align: center;
+	border:0.0px solid #000000;
+	padding: 0% 0% 20%;}
+
+.footer
+{display: block; position: relative; text-align: center; bottom: 150px; font-size: 2vw;}
+
+.navbar 
+{display: block; position:fixed; overflow: hidden; width:70%;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: helvetica; text-align:center; float: none;
+	margin:auto; bottom: 0; left:0; right:0;
+	padding: 14px;}
+
+	.navbar a
+	{font-size: 20px; color: rgba(0, 0, 0, 1.0); text-align: center; text-decoration: none; float: none;
+	    padding: 14px 30px;} .navbar a:hover {background-color: none;}}
+
+@media (max-width:770px) {body {font-family: 'Amiko';font-size: 18px;} 
+/*indent*/p.uppercase {text-transform: uppercase;}
+#christmas-round-frame> img
+{display: block; position:absolute;
+	z-index: -1; top: -13.8%; margin-left: auto; transform: translateX(-16%); width: 148%;
+	overflow: hidden;}
+
+.Mac_title
+{padding: 14% 0% 0% 0%; text-align: center; font-size: 5.0vw; font-weight: bolder;}
+
+.cookie-menu
+{display:block;position: relative;
+	width:96%;
+	margin: auto;
+	text-align: center; font-size: 3vw;
+	background-color: rgba(255, 255, 255, 0.0);
+	border:0.0px solid #000000;
+	padding: 0% 0px 35%;}
+
+.footer {display: block; position: relative; text-align: center; font-size: 3vw; bottom: 50px;}
+
+.navbar
+{display: flex; position:fixed; overflow: hidden; bottom: 0;
+	width:106%; transform: translateX(-3%);
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: helvetica; align-items: center; justify-content: center;}
+
+	.navbar a
+	{float: none;
+	    font-size: 4vw; color: rgba(0, 0, 0, 1.0); text-align: center; text-decoration: none; margin-left:0;
+	    padding: 14px 16px;} .navbar a:hover {background-color: none;}}
+</style>
+</head>
 </html>
