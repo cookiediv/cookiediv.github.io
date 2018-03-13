@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="Mac_title"><p class= "uppercase">Macaron Desserts</p></div>
+
+<div id="wrapper"><div id="top">
+<div id="mac-title"><center><h1><p class="uppercase">Macaron Desserts</p></h1></center></div><center><br>Sign-up for email newsletters from Macaron Desserts!<br></center>
+
+<div class="container">
+<form action="/action_page.php"><input type="text" id="fname" name="firstname" placeholder="first name">
+<input type="text" id="lname" name="lastname" placeholder="last name">
+
+<input type="email"  id="emailAddress" name="email" placeholder="email address">
+
+<input type="submit" value="Sign-up"></form></div></div>
+
+<div id="middle"><div id="wrapper"><div class="mail-form">
+<form action="/action_page.php">
+<div class="name-phone"><label for="fname">Name</label><input type="text" id="fname" name="firstname" placeholder="">&emsp;<label for="telNo">Phone #</label><input type="tel" id="telNo" name="telNo" placeholder=""></div>
+
+<div class="row"><label for= "emailAddress">email</label><input type="email"  id="emailAddress" name="email" placeholder=""></div>
+
+<div class="row"><div class="message-box"><label for="subject">Message<br></label><textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea></div></div>
+
+<div class="row"><input type="submit" value="send"></div></form></div></div></div></div>
+
+
+<br><center></center><a href="https://www.instagram.com/macaron_desserts/?hl=en">
+<img src="instagram-icon.png" alt="" width="42" height="42" border="0">
+</a></center><br>
+
+<div class="mail-sub-form"><form method="POST" action="http://formspree.io/bianca@macarondesserts.com">
+  <input type="email" name="email" placeholder="Your email"><br>
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form></div>
+
+<div class="footer">&copy Macaron Desserts 2017</div>
+
+<div class="navbar">
+    <a href="http://macarondesserts.com/"target="_top">Home</a>
+    <a href="http://macarondesserts.com/menu"target="_top">Menu</a>
+   <a href="http://macarondesserts.com/about"target="_top">About</a>
+   <a href="http://macarondesserts.com/contact-info" target="_top"><em>Contact</em></a> 
+</div>
+</body>
+
+
+<head>
+<link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+@media (min-width:771px) {
+body
+{font-family: 'Amiko';font-size: 18px; left:0; height:100%; width: 100%;
+	background-color: rgba(51, 102, 153, 1.0);background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.0) 5%, rgba(51, 102, 153, 0.1) 75%);}}
+	a:link {text-decoration: none;} p.uppercase {text-transform: uppercase;}
+  h1
+  {display: block;
+    font-size: 1.5rem; font-weight: normal;
+    margin: 1.0em 0em;}
+{body
+{font-family: 'Amiko';font-size: 18px; left:0; height:100%; width: 100%;}
+
+a:link {text-decoration: none;}
+
+p.uppercase {text-transform: uppercase;}
+
+h1
+{display: block;
+ font-size: 1.5rem; font-weight: normal;
+ margin: 1.0em 0em;}
+
+.mac-title
+{padding: 75px 0px 100px;}
+
+.container, .mail-form, .name-phone
+{display:inline-flex; position: relative; align-items: center; justify-content: center;
+  background-color: rgba(255, 255, 255, 1.0);
+  border-radius: 5px;
+  padding: 20px 0px 0px;}
+  
+.container 
+ {width:90%; transform: translateX(7%);}
+ 
+.mail-form
+{width: 100%; transform: translateX(0%);}
+ 
+input[type=text], input[type=email], input[type=tel], select, textarea
+{padding: 12px;
+  border: 0.75px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;}
+  
+textarea
+{width: 100%; float: right; padding: 0px;}
+
+.container input[type=text]
+{width: 20%;}
+  
+.container input[type=email]
+{width: 30%;}
+
+.mail-form input[type=text]
+{position: relative; width: 50%;}
+ 
+.mail-form input[type=tel]
+{position: relative; width: 50%; float: right;}
+ 
+.mail-form input[type=email]
+{position:relative; width: 83%; float: right;}
+
+.message-box
+{}
+
+label
+{padding: 12px 12px 12px 0px;}
+
+input[type=submit]
+{background-color: rgba(102, 55, 102, 0.5);
+  color: rgba(0, 0, 0, 1.0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: none;}
+
+input[type=submit]:hover
+{background-color: rgba(255, 255, 255, 1.0);}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}}
+
+.Mac_title
+{font-size: 4vw; font-weight:bold;text-align: center;}
+
+.com-media
+{display:inline-block; z-index: 1; position:relative; left:37%; text-align: right; font-size:14px;}
+
+.com-addresses
+{display:inline-block; position:relative; z-index: 1; left:40%; text-align: left; font-size:14px;}
+
+.footer
+{display: block; position: relative; text-align: center; bottom: -200px; font-size: 1.5vw;}
+
+.mail-sub-form
+{display:block; position:relative; z-index: 1; width:50%; margin: auto; text-align: left; font-size:14px;}
+
+.navbar 
+{display: block; position:fixed; overflow: hidden; width:70%;
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: helvetica; text-align:center; float: none;
+	margin:auto; bottom: 0; left:0; right:0;
+	padding: 14px;}
+
+	.navbar a
+	{font-size: 20px; color: rgba(0, 0, 0, 1.0); text-align: center; text-decoration: none; float: none;
+	    padding: 14px 30px;} .navbar a:hover {background-color: none;}
+
+@media (max-width:770px) {
+{body
+{font-family: 'Amiko'; font-size: 18px;}
+
+a:link {text-decoration: none;}
+
+p.uppercase{text-transform: uppercase;}
+
+h1
+{display: block;
+font-size: 1.4rem; font-weight: normal;
+margin: 1.0em 0em;}
+
+.mac-title
+{padding: 75px 0px 100px;}
+
+.container, .mail-form, .name-phone
+{display:inline-flex; position: relative; float: none;
+align-items: center; justify-content: center; line-height: 1.6;
+  background-color: rgba(255, 255, 255, 1.0);
+  border-radius: 5px;
+  padding: 0px 0px;
+  font-size: 3vw;}
+  
+.mail-form
+{width: 100%; transform: translateX(-2%); position: absolute;}
+  
+.container
+{postion: absolute; width:90%; transform: translateX(26px); padding-bottom: 40px;}
+
+.name-phone
+{width: 100%;}
+
+input[type=text], input[type=email], input[type=tel], select, textarea
+{padding: 12px;
+  border: 0.75px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  font-size: 2vw;}
+  
+textarea
+{width: 95%; float: right;}
+
+.container input[type=text]
+{width: 50px;}
+  
+.container input[type=email]
+{width: 130px;}
+
+.mail-form input[type=text]
+{width: 55px;}
+
+.mail-form input[type=tel]
+{position: relative; width: 55px; float: right;}
+  
+.mail-form input[type=email]
+{width: 73%; float: right;}
+
+.message-box
+{padding-top: 5px; padding-bottom: 20px;}
+
+label
+{padding: 12px 12px 12px 0px;}
+
+input[type=submit]
+{background-color: rgba(102, 55, 102, 0.5);
+  color: rgba(0, 0, 0, 1.0);
+  padding: 12px 7px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: none;}
+
+input[type=submit]:hover
+{background-color: rgba(255, 255, 255, 1.0);}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}}
+body
+{font-family: 'Amiko'; font-size: 18px;
+	background-color: rgba(51, 102, 153, 1.0); background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.0) 5%, rgba(51, 102, 153, 0.1) 75%);}
+	 a:link {text-decoration: none;} p.uppercase{text-transform: uppercase;}
+	  h1
+	  { display: block;
+	    font-size: 1.4rem; font-weight: normal;
+	    margin: 1.0em 0em;}
+
+#Light-Pink-Macarons > img
+{position:fixed; bottom: 0; 
+	width:60%; transform: translateX(-30%);}
+
+.Mac_title
+{text-align: center; font-size: 2.0rem; font-weight: bold; padding-top: 2%;}
+
+.com-media
+{display:inline-block; position:relative; left:18%; text-align: right; font-size:14px;}
+
+.com-addresses
+{display:inline-block; position:relative; left:20.5%; text-align: left; font-size:14px;}
+
+.footer {display: block; position: relative; text-align: center; bottom: -200px; font-size:3vw}
+
+.navbar
+{display: flex; position:fixed; overflow: hidden; bottom: 0;
+	width:106%; transform: translateX(-3.0%);
+    background-color: rgba(255, 255, 255, 1.0);
+    font-family: helvetica; align-items: center; justify-content: center;}
+
+	.navbar a
+	{float: none;
+	    font-size: 4vw; color: rgba(0, 0, 0, 1.0); text-align: center; text-decoration: none; margin-left:0;
+	    padding: 14px 16px;} .navbar a:hover {background-color: none;}}
+</style>
+<head>
+</html>

@@ -2,12 +2,9 @@
 <html>
 <body>
 
-<div id="christmas-round-frame">
-<img src="christmas-round-frame.jpg" alt="christmas round frame"></div>
+<div id="flowers-background"><img src="flowers-background.png" alt="flowers background"></div>
 
-<div class="Mac_title">
-<center><p class= "uppercase">Macaron<br>Menu</p></center>
-</div>
+<div id="wrapper"><div class="top"><div class="Mac_title"><center><p class= "uppercase">Macaron Menu</p></center></div>
 
 <div class="cookie-menu">
 	Vanilla
@@ -17,16 +14,16 @@
 		<p>Black Currant
 		<p>Lemon
 		<p>Green Tea
-		<p>Pistachio</p></div>
+		<p>Pistachio</p></div></div>
 
-<div class="copywrite">&copy Macaron Desserts 2017</div>
+<div class="middle"><div class="copywrite">&copy Macaron Desserts 2017</div></div>
 
 <div class="navbar">
     <a href="http://macarondesserts.com/"target="_top">Home</a>
     <a href="http://macarondesserts.com/menu"target="_top"><em>Menu</em></a>
 	<a href="http://macarondesserts.com/about"target="_top">About</a>
    <a href="http://macarondesserts.com/contact-info" target="_top">Contact</a> 
-</div>
+</div></div>
 
 </body>
 
@@ -37,27 +34,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-@media (min-width:771px) {body {font-family: 'Amiko';font-size: 18px;}
+@media (min-width:771px) {body {font-family: 'Amiko';font-size: 18px; background-color: rgba(51, 102, 153, 1.0); background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.0) 5%, rgba(51, 102, 153, 0.1) 75%);}
 /*indent*/p.uppercase{text-transform: uppercase;}
 
-#christmas-round-frame> img
-{display: block; position:absolute; 
-	z-index: -1; width: 120%; top: -20%; transform: translateX(-9%);
-	overflow: hidden;}
+#flowers-background> img
+{display: block; position: fixed; z-index: -1; bottom: -25%; transform: translateX(-2%); overflow: hidden; width: 30%;}  
 
 .Mac_title
-{padding: 15% 0% 0% 0%; text-align: center; font-size: 3.5vw; font-weight: bold;}
+{padding: 3% 0% 0% 0%; text-align: center; font-size: 3.5vw; font-weight: bold;}
 	
 .cookie-menu
 {display:block; position: relative; width: 40%;
 	margin: auto; overflow:hidden;
-	background-color: rgba(255, 255, 255, 0.0);
-	font-size: 2vw; text-align: center;
-	border:0.0px solid #000000;
-	padding: 0% 0% 20%;}
+	background-color: rgba(255, 255, 255, 0.9);
+	font-size: 1.5vw; text-align: center;
+	border:0.75px solid #000000;
+	padding: 5% 0% 5%;}
 
 .copywrite
-{display: block; position: relative; text-align: center; bottom: 150px; font-size: 2vw;}
+{display: block; text-align: center; font-size: 2vw; padding-top: 5%; padding-bottom: 15%;}
 
 .navbar 
 {display: block; position:fixed; overflow: hidden; width:70%;
@@ -70,26 +65,26 @@
 	{font-size: 20px; color: rgba(0, 0, 0, 1.0); text-align: center; text-decoration: none; float: none;
 	    padding: 14px 30px;} .navbar a:hover {background-color: none;}}
 
-@media (max-width:770px) {body {font-family: 'Amiko';font-size: 18px;} 
+@media (max-width:770px) {body {font-family: 'Amiko';font-size: 18px; background-color: rgba(51, 102, 153, 1.0); background: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.0) 5%, rgba(51, 102, 153, 0.1) 75%);} 
 /*indent*/p.uppercase {text-transform: uppercase;}
-#christmas-round-frame> img
-{display: block; position:absolute;
-	z-index: -1; top: -13.8%; margin-left: auto; transform: translateX(-16%); width: 148%;
-	overflow: hidden;}
+
+#flowers-background> img
+{display: block; position: fixed; z-index: -1; bottom: -25%; margin-left: auto; transform: translateX(-10%); overflow: hidden; 
+	width: 50%;}
 
 .Mac_title
-{padding: 14% 0% 0% 0%; text-align: center; font-size: 5.0vw; font-weight: bolder;}
+{padding: 5% 0% 0% 0%; text-align: center; font-size: 5.0vw; font-weight: bolder;}
 
 .cookie-menu
 {display:block;position: relative;
 	width:96%;
 	margin: auto;
 	text-align: center; font-size: 3vw;
-	background-color: rgba(255, 255, 255, 0.0);
-	border:0.0px solid #000000;
-	padding: 0% 0px 35%;}
+	background-color: rgba(255, 255, 255, 0.9);
+	border:0.75px solid #000000;
+	padding: 10% 0px 10%;}
 
-.copywrite {display: block; position: relative; text-align: center; font-size: 3vw; bottom: 50px;}
+.copywrite {display: block; text-align: center; font-size: 3vw; padding-top: 10%; padding-bottom: 20%;}
 
 .navbar
 {display: flex; position:fixed; overflow: hidden; bottom: 0;
